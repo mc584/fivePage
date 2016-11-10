@@ -87,7 +87,63 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-li {
+body {
+  height: 5000px;
+  margin: 0px;  
+}
+#sliderMenu ul {
+  margin: 0px;
+}
+#sliderMenu a {
+  color: white;
+}
+#one { 
+  background-color: blue;
+  position: fixed;
+  top: 0px;
+  width: 960px;
+}
+#two {
+  background-color: green;
+  margin-top: 22px;
+  background-image: url("../img/hero.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position: 0px;
+  height: 366px;
+
+}
+#featureSection {
+  height: 367px;
+}
+#featureOne {
+  float: left;
+  width: 50%;
+}
+#featureTwo {
+  float: left;
+  width: 50%;
+
+}
+#three {
+  background-color: red;
+}
+
+#four {
+  background-color: black;
+  color: white;
+}
+.boxWidth {
+  width: 200px;
+}
+.floatLeft {
+  float: left;
+}
+.clear {
+  clear: both;
+}
+
+#sliderMenu li, #menu li {
      display:inline;
    }
 ul {
