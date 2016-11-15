@@ -123,8 +123,8 @@ body {
 #featureTwo {
   float: left;
   width: 50%;
-
 }
+
 #three {
   background-color: red;
 }
@@ -204,8 +204,21 @@ ul {
   clear: both;
 }
 
-
-
+#feature11 h2{
+	font-family: "Arial", Arial, Serif;
+	font-style: italic;
+}
+#feature12 h2{
+	font-Family: "Courier", Courier, Serif;
+	font-style: oblique;
+}
+#feature13 h2{
+	font-family: "Lucida", Courier, Arial;
+	font-style: bold;
+}
+#listus ul{
+	font-family: "Lucida", Courier, Arial;
+	font-style: bold, oblique, italic;
 
 
 
