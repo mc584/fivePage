@@ -98,13 +98,13 @@ body {
   color: white;
 }
 #one { 
-  background-color: blue;
+  background-color: orange;
   position: fixed;
   top: 0px;
   width: 960px;
 }
 #two {
-  background-color: green;
+  background-color: orange;
   margin-top: 22px;
   background-image: url("../img/hero.jpg");
   background-repeat: none;
@@ -157,7 +157,7 @@ ul {
 }
 #banner {
   clear: both;
-  background-image: url("../img/ibiza.jpg");
+  background-image: url("../img/hero.jpg");
   height: 404px;
   background-size: cover;
   width: 960px;
@@ -168,12 +168,12 @@ ul {
   padding: 0px;
 }
 #header {
-  background-color:red;
+  background-color:grey;
   height: 70px;
   line-height: 70px;
 }
 #menu {
-  background-color:blue;
+  background-color:orange;
   width: 593px;
   float: left;
 
@@ -183,7 +183,7 @@ ul {
 }
 
 #logo {
-  background-color: green;
+  background-color: yellow;
   width: 367px;
   float: left;
 }
