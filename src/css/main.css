@@ -89,7 +89,9 @@ textarea {
    ========================================================================== */
 body {
   height: 5000px;
-  margin: 0px;  
+  margin: 0px;
+  background-color: lightblue;
+
 }
 #sliderMenu ul {
   margin: 0px;
@@ -106,7 +108,7 @@ body {
 #two {
   background-color: orange;
   margin-top: 22px;
-  background-image: url("../img/hero.jpg");
+  background-image: url("../img/hero.jp");
   background-repeat: none;
   background-size: cover;
   background-position: 0px;
@@ -173,17 +175,19 @@ ul {
   line-height: 70px;
 }
 #menu {
-  background-color:orange;
+  background-color:blue;
   width: 593px;
   float: left;
 
 }
 #menu a {
   color: white;
+  font-family: "Arial", Arial, Serif;
+  font-style: bold, oblique;
 }
 
 #logo {
-  background-color: yellow;
+  background-color: 00FFFF ;
   width: 367px;
   float: left;
 }
@@ -200,7 +204,7 @@ ul {
   width: 100%;
 }
 #footer {
-  background-color: orange;
+  background-color: darkblue;
   clear: both;
 }
 
@@ -219,14 +223,29 @@ ul {
 #listus ul{
 	font-family: "Lucida", Courier, Arial;
 	font-style: bold, oblique, italic;
-
-
-
-
-
-
-
-
+}
+#feature21{
+        font-family: "Lucida", Courier, Arial;
+	        font-style: bold, oblique, italic;
+		float: left;
+}
+#feature22{
+        font-family: "Lucida", Courier, Arial;
+	        font-style: bold, oblique, italic;
+		float: left;
+}
+#feature23{
+        font-family: "Lucida", Courier, Arial;
+	        font-style: bold, oblique, italic;
+		float: left;
+}
+#timeline{
+background-image: url("../img/historyoftheinternet-timeline-s.jpg");
+clear: both;
+background-repeat: no-repeat;
+background-attachment:fixed;
+background-size: cover;
+}
 
 
 
